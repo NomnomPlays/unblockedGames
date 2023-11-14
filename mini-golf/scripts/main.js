@@ -180,7 +180,7 @@
             const elem = this._elementMap.get(e["elementId"]);
             elem.style.left = e["left"] + "px";
             elem.style.top = e["top"] + "px";
-            elem.style.width = e["width"] + "px";
+            elem.style.width = "100%";
             elem.style.height = e["height"] + "px";
             const fontSize = e["fontSize"];
             if (fontSize !== null)
